@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.color-1 {
+    color: #1C1C1C
+}
+
+.color-2 {
+    color: #F411CF;
+}
+
+.color-3 {
+    color: #872BFF;
+}
+
+.color-4 {
+    color: #A8A8A8;
+}
+
+.purpleBtn {
+    padding: 16px 32px;
+    border-radius: 40px;
+    border: 1px solid #872BFF;
+    background-color: #872BFF;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.purpleBtn:active {
+    background-color: #8f3bfd;
+    color: white;
+}
+
+body {
+    color: #1C1C1C;
+    background: linear-gradient(#ffffff, #ebdcff);
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+main {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+.banner {
+    background-image: url(images/hero-bg.png);
+    margin-top: 100px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #872BFF2a;
+    padding: 20px 30px;
+}
+
+.banner .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner .left h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.banner .left p {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 36px 0;
+}
+
+.buttonContainer button {
+    padding: 16px 32px;
+    border-radius: 40px;
+    border: 1px solid #872BFF;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.buttonContainer button:active {
+    background-color: #872BFF2a;
+}
+
+.buttonContainer button:nth-child(1) {
+    background-color: #8f3bfd;
+    color: white;
+    margin-right: 10px;
+}
+
+.buttonContainer button:nth-child(1):active {
+    background-color: #872BFF;
+    color: white;
+}
+
+.banner .right {
+    width: 600px;
+    height: 600px;
+}
+
+/* services */
+.services {
+    margin: 120px 0;
+}
+
+.sectionTitle {
+    margin-bottom: 60px;
+}
+
+.sectionTitle .title,
+.sectionTitle .subTitle {
+    text-align: center;
+    font-family: 700;
+}
+
+.sectionTitle .title {
+    color: #F411CF;
+    font-size: 24px;
+    margin-bottom: 14px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.sectionTitle .subTitle {
+    font-size: 44px;
+
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 105px;
+}
+
+.card {
+    padding: 76.5px 48px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.card img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 72px;
+}
+
+.cardDesc,
+.cardTitle {
+    text-align: center;
+}
+
+.cardTitle {
+    margin-bottom: 30px;
+}
+
+.cardDesc {
+    color: #A8A8A8;
+}
+
+/* best */
+#china,
+#bd {
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+    background-color: white;
+    padding: 48px;
+    border-radius: 30px;
+}
+
+
+.chinaRight h2, .bdLeft h2 {
+    font-size: 32px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.chinaRight img ,.bdLeft img{
+    width: 100px;
+    margin: 12px 0;
+    display: block;
+}
+
+.chinaRight p ,.bdLeft p{
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+#bd{
+    margin-top: 60px;
+}
+
+
+/* COUNTRIES WE COVER */
+
+#countries {
+    margin: 120px 0;
+}
+
+#countriesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    padding: 0 36px;
+}
+
+.country {
+    padding: 40px;
+    border: 1px solid #6363634f;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 16px;
+    color: #0E0E0ECC;
+    text-transform: uppercase;
+    background-color: white;
+}
+
+#countries button {
+    display: block;
+    margin: 60px auto 0;
+}
+
+/* review */
+.reviewsContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+
+.review {
+    background-color: white;
+    padding: 24px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.review p,
+.reviewerInfo h3 {
+    color: #0E0E0EBB;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.review h2 {
+    font-size: 18px;
+}
+
+.reviewerInfo {
+    margin: 32px auto 0;
+    position: relative;
+}
+
+.star-reviews {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+
+/* footer */
+footer {
+    background-color: white;
+    margin-top: 120px;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1260px;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+.footerContent span {
+    font-weight: bold;
+}
+
+.social {
+    display: flex;
+    gap: 12px;
+}
+
+/* Medium screens (tablets) */
+/* @media (max-width: 992px) {
+    .banner {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .banner .left,
+    .banner .right {
+        width: 100%;
+    }
+
+    .buttonContainer {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cardContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #china {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .chinaRight {
+        width: 100%;
+        text-align: center;
+    }
+
+    #countriesContainer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .reviewsContainer {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    footer {
+        text-align: center;
+    }
+} */
+
+/* Small screens (mobile) */
